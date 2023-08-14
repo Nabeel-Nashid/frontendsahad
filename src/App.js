@@ -1,9 +1,14 @@
-import './App.css';
-
+import "./App.css";
+import First from "./pages/first";
+import Second from "./pages/second";
+import { Container } from "reactstrap";
 function App() {
   return (
     <div className="App">
-      hi
+      <Container>
+        <First />
+        <Second />
+      </Container>
     </div>
   );
 }
