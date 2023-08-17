@@ -6,7 +6,6 @@ import {
   Container,
   Input,
   InputGroup,
-  InputGroupText,
 } from "reactstrap";
 import { RiMoreLine } from "react-icons/ri";
 function Third() {
@@ -99,7 +98,7 @@ function Third() {
                       style={{
                         backgroundColor: "#d1c3e242",
                         borderRadius: "6px",
-                        width:"85%"
+                        maxWidth:"85%"
                       }}
                     >
                       <div className="d-flex align-items-center">
@@ -110,6 +109,7 @@ function Third() {
                         <>
                         <RiMoreLine/></>
                       </div>
+                      <><p>Plpease apply for M.Sc Accounting & Finance with placement at Anglia Ruksin university for the September 2021 intake!</p></>
                     </div>
                   </div>
                 </div>
