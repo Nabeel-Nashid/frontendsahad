@@ -1,23 +1,30 @@
 import React from "react";
 import AdditionalInformation from "../components/additionalInformations/additionalInformation";
 import { Badge, Button, Container } from "reactstrap";
+import { AiFillSave } from "react-icons/ai";
+import CourseTag from "../components/additionalInformations/courseTag";
+import Intakes from "../components/additionalInformations/intakes";
 
 function Second() {
   return (
     <div className="mt-3">
       <Container>
-        <div className="d-flex justify-content-between">
-          <div className="d-flex">
+        <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex my-4 p-2">
             <h4>Course Creation</h4>
-            <Badge color="secondary" pill>
+            <Badge className="text-dark mx-4 d-flex align-items-center" color="light" pill>
               Step 2 of 4
             </Badge>
           </div>
           <div className="d-flex">
-            <Button>Save As Draft</Button>
+            <Button style={{backgroundColor:"#0a2896", maxHeight:"40px"}}>
+              <AiFillSave color="white" className="mx-2"/>
+              Save As Draft</Button>
           </div>
         </div>
         <AdditionalInformation />
+        <Intakes/>
+        <CourseTag/>
       </Container>
     </div>
   );

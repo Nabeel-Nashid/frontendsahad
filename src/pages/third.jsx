@@ -56,14 +56,17 @@ function Third() {
                 alt="Sample"
                 src={university}
               />
-              <div className="comment-box mx-2">
+              <div className="comment-box mx-2" style={{ width: "95%" }}>
                 <InputGroup>
-                  <Input placeholder="Add a Comment..." />
+                  <Input
+                    placeholder="Add a Comment..."
+                    style={{ minHeight: "80px" }}
+                  />
                   <Button
                     style={{
                       background: "none",
                       color: "gray",
-                      border: "none",
+                      borderLeft: "none",
                     }}
                   >
                     Post
@@ -89,7 +92,7 @@ function Third() {
                   <div
                     className="mx-2"
                     style={{
-                      width: "85%",
+                      maxWidth: "80%",
                     }}
                   >
                     <div
@@ -100,7 +103,7 @@ function Third() {
                       }}
                     >
                       <div className="d-flex align-items-center justify-content-between  m-2">
-                        <div className="d-flex ">
+                        <div className="d-flex align-items-baseline">
                           <h6 className="my-0">Roshan Karthik</h6>
                           <p className="my-0 mx-2">1 Week ago</p>
                         </div>
@@ -141,7 +144,7 @@ function Third() {
                           }}
                         >
                           <div className="d-flex align-items-center justify-content-between  m-2">
-                            <div className="d-flex ">
+                            <div className="d-flex align-items-baseline">
                               <h6 className="my-0">Greenwich University</h6>
                               <p className="my-0 mx-2">34 min ago</p>
                             </div>
@@ -172,7 +175,7 @@ function Third() {
                           }}
                         >
                           <div className="d-flex align-items-center justify-content-between  m-2">
-                            <div className="d-flex ">
+                            <div className="d-flex align-items-baseline">
                               <h6 className="my-0">Roshan Karthika</h6>
                               <p className="my-0 mx-2">3 hrs ago</p>
                             </div>
@@ -181,7 +184,10 @@ function Third() {
                             </div>
                           </div>
                           <div className="m-2">
-                            <p>Definitely aller Due. One day at the Time! I love it.</p>
+                            <p>
+                              Definitely aller Due. One day at the Time! I love
+                              it.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -203,9 +209,9 @@ function Third() {
                           }}
                         >
                           <div className="d-flex align-items-center justify-content-between  m-2">
-                            <div className="d-flex ">
+                            <div className="d-flex align-items-baseline ">
                               <h6 className="my-0">Greenwich University</h6>
-                              <p className="my-0 mx-2">4 days ago</p>
+                              <p className=" mx-2">4 days ago</p>
                             </div>
                             <div className="m-2">
                               <RiMoreLine />
@@ -216,11 +222,86 @@ function Third() {
                           </div>
                         </div>
                       </div>
-                     
+                      <div className="d-flex mb-2">
+                        <img
+                          style={{
+                            borderRadius: "50%",
+                            width: "50px",
+                            height: "50px",
+                          }}
+                          alt="Sample"
+                          src={university}
+                        />
+
+                        <InputGroup className="mx-2">
+                          <Input placeholder="Add a reply..." />
+                          <Button
+                            style={{
+                              borderLeft: "none",
+                              background: "none",
+                              color: "gray",
+                            }}
+                          >
+                            Reply
+                          </Button>
+                        </InputGroup>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex mt-3">
+                  <img
+                    style={{
+                      borderRadius: "50%",
+                      width: "50px",
+                      height: "50px",
+                    }}
+                    alt="Sample"
+                    src={male3}
+                  />
+                  <div
+                    className="mx-2"
+                    style={{
+                      maxWidth: "80%",
+                    }}
+                  >
+                    <div
+                      className="p-2"
+                      style={{
+                        backgroundColor: "#f9f8fd",
+                        borderRadius: "12px",
+                      }}
+                    >
+                      <div className="d-flex align-items-center justify-content-between  m-2">
+                        <div className="d-flex align-items-baseline">
+                          <h6 className="my-0">Roshan Karthik</h6>
+                          <p className="my-0 mx-2">1 Week ago</p>
+                        </div>
+                        <div className="m-2">
+                          <RiMoreLine />
+                        </div>
+                      </div>
+                      <div className="m-2">
+                        <p>
+                          Everything that needs to be accomplished requires time
+                          and effort
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-baseline mt-2">
+                      <HiOutlineReply style={{ transform: "rotate(180deg)" }} />
+                      <p className="mx-1">2</p>
+                      <p className="mx-1">Replies</p>
+                      <p>Reply</p>
                     </div>
                   </div>
                 </div>
               </div>
+              <button
+                style={{ border: "none", background: "none", color: "gray" }}
+              >
+                <h6>Add a comment</h6>
+              </button>
             </div>
           </div>
         </>
