@@ -4,6 +4,7 @@ import { BsFillPencilFill, BsFillTelephoneFill } from "react-icons/bs";
 import { HiMailOpen } from "react-icons/hi";
 import { FaGraduationCap } from "react-icons/fa";
 import { avatar, edumpus, female3 } from "../components/images";
+import { TiTick } from "react-icons/ti";
 function First() {
   return (
     <div>
@@ -24,10 +25,11 @@ function First() {
                 }}
               >
                 <img
-                  style={{ borderRadius: "50%", width: "50px", height: "50px" }}
+                  style={{ borderRadius: "50%", width: "50px", height: "50px" ,position:"relative" }}
                   alt="Sample"
                   src={female3}
                 />
+                <TiTick color="green" style={{backgroundColor:"white", borderRadius:"50%",position:"absolute", border:"1px solid green", top:"30", left:"50"}} size={22}/>
                 <div className="ml-1">
                   <h6>Charlotte Rosalie</h6>
                   <p>EDU-IND-66444081</p>
