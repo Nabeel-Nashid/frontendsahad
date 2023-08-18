@@ -38,7 +38,7 @@ function Third() {
         <>
           <>
             <img
-              style={{ width: "100%", height: "500px" }}
+              style={{ width: "100%", maxHeight: "600px" }}
               alt="Sample"
               src={college}
             />
