@@ -7,7 +7,7 @@ import Fourth from "./pages/fourth";
 function App() {
   return (
     <div className="App">
-      <Container>
+      <Container >
         <First />
         <Second />
         <Third />

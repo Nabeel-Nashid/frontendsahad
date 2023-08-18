@@ -2,6 +2,7 @@ import React from "react";
 import { Badge, Button, Card, Input, InputGroup } from "reactstrap";
 import { RiMoreLine } from "react-icons/ri";
 import { college, male3, university } from "../components/images";
+import { HiOutlineReply } from "react-icons/hi";
 function Third() {
   return (
     <div className="mt-4 p-2" style={{ backgroundColor: "#d1c3e242" }}>
@@ -24,8 +25,8 @@ function Third() {
             vaccine. Approval for COVID-19 vaccine given on December 9, 2020.
             Additionally Canada has given the green light to COVID-19 vaccine.
             Also, as per the Canadian government, *Health Canada authorized the
-            Pfizer-BioNTech COVID-19 mRNA vaccine (Tozinameran or BNT162b2) for use for
-            the COVID-19 pandemic*.
+            Pfizer-BioNTech COVID-19 mRNA vaccine (Tozinameran or BNT162b2) for
+            use for the COVID-19 pandemic*.
           </p>
           <div className="mt-4">
             <p className="m-0">
@@ -86,29 +87,137 @@ function Third() {
                     src={male3}
                   />
                   <div
-                    className="p-2 mx-2"
+                    className="mx-2"
                     style={{
-                      backgroundColor: "#f9f8fd",
-                      borderRadius: "6px",
                       width: "85%",
                     }}
                   >
-                    <div className="d-flex align-items-center">
-                      <>
-                        <h6 className="my-0">Roshan Karthik</h6>
-                        <p className="my-0 mx-2">1 Week ago</p>
-                      </>
-                      <>
-                        <RiMoreLine />
-                      </>
+                    <div
+                      className="p-2"
+                      style={{
+                        backgroundColor: "#f9f8fd",
+                        borderRadius: "12px",
+                      }}
+                    >
+                      <div className="d-flex align-items-center justify-content-between  m-2">
+                        <div className="d-flex ">
+                          <h6 className="my-0">Roshan Karthik</h6>
+                          <p className="my-0 mx-2">1 Week ago</p>
+                        </div>
+                        <div className="m-2">
+                          <RiMoreLine />
+                        </div>
+                      </div>
+                      <div className="m-2">
+                        <p>
+                          Please apply for M.Sc Accounting & Finance with
+                          placement at Anglia Ruksin university for the
+                          September 2021 intake!
+                        </p>
+                      </div>
                     </div>
-                    <>
-                      <p>
-                        Please apply for M.Sc Accounting & Finance with
-                        placement at Anglia Ruksin university for the September
-                        2021 intake!
-                      </p>
-                    </>
+                    <div className="d-flex align-items-baseline mt-2">
+                      <HiOutlineReply style={{ transform: "rotate(180deg)" }} />
+                      <p className="mx-1">3</p>
+                      <p className="mx-1">Replies</p>
+                      <p>Reply</p>
+                    </div>
+                    <div>
+                      <div className="d-flex mb-2">
+                        <img
+                          style={{
+                            borderRadius: "50%",
+                            width: "50px",
+                            height: "50px",
+                          }}
+                          alt="Sample"
+                          src={university}
+                        />
+                        <div
+                          className="p-2 mx-2"
+                          style={{
+                            backgroundColor: "#f9f8fd",
+                            borderRadius: "12px",
+                          }}
+                        >
+                          <div className="d-flex align-items-center justify-content-between  m-2">
+                            <div className="d-flex ">
+                              <h6 className="my-0">Greenwich University</h6>
+                              <p className="my-0 mx-2">34 min ago</p>
+                            </div>
+                            <div className="m-2">
+                              <RiMoreLine />
+                            </div>
+                          </div>
+                          <div className="m-2">
+                            <p>Exactly, Amina Small steps are so important.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex mb-2">
+                        <img
+                          style={{
+                            borderRadius: "50%",
+                            width: "50px",
+                            height: "50px",
+                          }}
+                          alt="Sample"
+                          src={male3}
+                        />
+                        <div
+                          className="p-2 mx-2"
+                          style={{
+                            backgroundColor: "#f9f8fd",
+                            borderRadius: "12px",
+                          }}
+                        >
+                          <div className="d-flex align-items-center justify-content-between  m-2">
+                            <div className="d-flex ">
+                              <h6 className="my-0">Roshan Karthika</h6>
+                              <p className="my-0 mx-2">3 hrs ago</p>
+                            </div>
+                            <div className="m-2">
+                              <RiMoreLine />
+                            </div>
+                          </div>
+                          <div className="m-2">
+                            <p>Definitely aller Due. One day at the Time! I love it.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="d-flex mb-2">
+                        <img
+                          style={{
+                            borderRadius: "50%",
+                            width: "50px",
+                            height: "50px",
+                          }}
+                          alt="Sample"
+                          src={university}
+                        />
+                        <div
+                          className="p-2 mx-2"
+                          style={{
+                            backgroundColor: "#f9f8fd",
+                            borderRadius: "12px",
+                          }}
+                        >
+                          <div className="d-flex align-items-center justify-content-between  m-2">
+                            <div className="d-flex ">
+                              <h6 className="my-0">Greenwich University</h6>
+                              <p className="my-0 mx-2">4 days ago</p>
+                            </div>
+                            <div className="m-2">
+                              <RiMoreLine />
+                            </div>
+                          </div>
+                          <div className="m-2">
+                            <p>Well said, So glad it resonated. </p>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
                   </div>
                 </div>
               </div>
