@@ -96,7 +96,7 @@ function First() {
                   New
                 </Badge>
               </div>
-              <div style={{ lineHeight: "2.5rem" }}>
+              <div style={{ lineHeight: "2rem" }}>
                 <div>
                   <BsFillTelephoneFill />
                   +91 75108 27929

@@ -2,8 +2,6 @@ import React from "react";
 import AdditionalInformation from "../components/additionalInformations/additionalInformation";
 import { Badge, Button, Container } from "reactstrap";
 import { AiFillSave } from "react-icons/ai";
-import CourseTag from "../components/additionalInformations/courseTag";
-import Intakes from "../components/additionalInformations/intakes";
 
 function Second() {
   return (
@@ -23,8 +21,7 @@ function Second() {
           </div>
         </div>
         <AdditionalInformation />
-        <Intakes/>
-        <CourseTag/>
+        
       </Container>
     </div>
   );

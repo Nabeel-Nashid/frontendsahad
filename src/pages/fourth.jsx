@@ -34,7 +34,7 @@ function Fourth() {
           </div>
           <div className="">
             {user.map((index, key) => (
-              <div className="d-flex p-3">
+              <div className="d-flex p-3"key={key} >
                 <img
                   style={{
                     borderRadius: "50%",

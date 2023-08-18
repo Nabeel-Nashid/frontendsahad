@@ -4,7 +4,7 @@ import { MdDelete } from "react-icons/md";
 import { Button, Col, Row } from "reactstrap";
 
 function Intakes() {
-  const [intakes, setIntakes] = useState();
+  const [intakes, setIntakes] = useState([{ intakes: "", duration: "" }]);
   const HandleChange = (e) => {
     e.preventDefault();
     setIntakes({
@@ -13,11 +13,19 @@ function Intakes() {
     });
   };
   console.log(intakes);
+  const HandleAddIntakes = () => {
+    const values = [...intakes];
+    values.push({ intakes: "", duration: "" });
+    setIntakes(values);
+  };
   return (
     <div className="mt-4">
       <h6>Intakes</h6>
       <div className="form">
-        <Row>
+        {intakes.map((index,key)=>(
+
+        
+        <Row key={key}>
           <Col md="6">
             <p className="m-0">Intakes</p>
             <div
@@ -69,6 +77,7 @@ function Intakes() {
             </div>
           </Col>
         </Row>
+        ))}
 
         <Button
           className="mt-3"
@@ -77,6 +86,7 @@ function Intakes() {
             border: "none",
             color: "#12247b",
           }}
+          onClick={HandleAddIntakes}
         >
           <div className="d-flex">
             <FaPlus />
