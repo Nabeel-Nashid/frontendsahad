@@ -30,7 +30,7 @@ function First() {
                 />
                 <div className="ml-1">
                   <h6>Charlotte Rosalie</h6>
-                  <p>EDU-IND_66444081</p>
+                  <p>EDU-IND-66444081</p>
                 </div>
                 <div
                   style={{
@@ -61,7 +61,7 @@ function First() {
                 </div>
                 <div className=" m-2 d-flex justify-content-between">
                 <Badge className="text-primary" color="light" pill>
-                  <p className="m-2">Add Your Rest Documents</p>
+                  <h6 className="m-1">Add Your Rest Documents</h6>
                 </Badge>
                 <img
                   style={{ borderRadius: "50%", width: "30px", height: "30px" }}
@@ -89,28 +89,28 @@ function First() {
                   src={avatar}
                 />
                 <div>
-                  <h6>Charlotte Rosalie</h6>
-                  <p>EDU-IND_66444081</p>
+                  <h6>Rosalie Due</h6>
+                  <p>EDU-IND-66444083</p>
                 </div>
                 <Badge className="text-success" color="light" pill>
                   New
                 </Badge>
               </div>
-              <div style={{ lineHeight: "3rem" }}>
+              <div style={{ lineHeight: "2.5rem" }}>
                 <div>
                   <BsFillTelephoneFill />
                   +91 75108 27929
                 </div>
                 <div>
                   <HiMailOpen />
-                  myemail@rihannasinger.com
+                  haris.karat@googlemail.com
                 </div>
                 <div>
                   <FaGraduationCap />
-                  MSc Business with internationall Management
+                  Master of Business Administration in Global Business
                 </div>
                 <Badge className="text-primary" color="light" pill>
-                  <p className="m-3">Applied</p>
+                  <h6 className="m-1">Applied</h6>
                 </Badge>
               </div>
             </Card>
@@ -132,8 +132,8 @@ function First() {
                   src={avatar}
                 />
                 <div>
-                  <h6>Charlotte Rosalie</h6>
-                  <p>EDU-IND_66444081</p>
+                  <h6>Thomas Paul</h6>
+                  <p>EDU-IND-66444081</p>
                 </div>
                 <Badge className="text-success" color="light" pill>
                   New
@@ -146,15 +146,15 @@ function First() {
                 </div>
                 <div>
                   <HiMailOpen />
-                  myemail@rihannasinger.com
+                  myemail@miamatrina.com
                 </div>
                 <div>
                   <FaGraduationCap />
-                  MSc Business with internationall Management
+                  Master of Business Administration MBA
                 </div>
                 <div className="m-2 d-flex justify-content-between">
                 <Badge className="text-primary" color="light" pill>
-                  <p className="m-2">Verified</p>
+                  <h6 className="m-1">Verified</h6>
                 </Badge>
                 <img
                   style={{ borderRadius: "50%", width: "30px", height: "30px" }}

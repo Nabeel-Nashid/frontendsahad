@@ -33,6 +33,7 @@ function Intakes() {
                 <MdDelete color="red" size={30} />
               </button>
               <input
+                required
                 placeholder="September"
                 style={{ width: "80%" }}
                 name="intakes"
@@ -48,6 +49,7 @@ function Intakes() {
               style={{ backgroundColor: "#f8f8fa", border: "1px solid black" }}
             >
               <input
+                required
                 placeholder="1Year"
                 style={{ width: "80%" }}
                 name="duration"
