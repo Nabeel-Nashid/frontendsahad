@@ -46,7 +46,7 @@ function First() {
                   <BsFillPencilFill color="darkblue" />
                 </div>
               </div>
-              <div style={{ lineHeight: "3rem" }}>
+              <div style={{ lineHeight: "4rem" }}>
                 <div>
                   <BsFillTelephoneFill />
                   +91 75108 27929
@@ -96,7 +96,7 @@ function First() {
                   New
                 </Badge>
               </div>
-              <div style={{ lineHeight: "2rem" }}>
+              <div style={{ lineHeight: "3rem" }}>
                 <div>
                   <BsFillTelephoneFill />
                   +91 75108 27929
@@ -139,7 +139,7 @@ function First() {
                   New
                 </Badge>
               </div>
-              <div style={{ lineHeight: "3rem" }}>
+              <div style={{ lineHeight: "4rem" }}>
                 <div>
                   <BsFillTelephoneFill />
                   +91 75108 27929
