@@ -3,12 +3,13 @@ import { Card, Container, Badge, Row, Col } from "reactstrap";
 import { BsFillPencilFill, BsFillTelephoneFill } from "react-icons/bs";
 import { HiMailOpen } from "react-icons/hi";
 import { FaGraduationCap } from "react-icons/fa";
+import { avatar, edumpus, female3 } from "../components/images";
 function First() {
   return (
     <div>
       <Container
-        className="p-3"
-        style={{ backgroundColor: "#d1c3e242", display: "flex" }}
+        className="p-3 mt-4"
+        style={{ backgroundColor: "#f9f8fd", display: "flex" }}
       >
         <Row>
           <Col md="4">
@@ -23,9 +24,9 @@ function First() {
                 }}
               >
                 <img
-                  style={{ borderRadius: "50%", width: "50px", height: "50px"}}
+                  style={{ borderRadius: "50%", width: "50px", height: "50px" }}
                   alt="Sample"
-                  src="https://picsum.photos/300/300"
+                  src={female3}
                 />
                 <div className="ml-1">
                   <h6>Charlotte Rosalie</h6>
@@ -35,7 +36,7 @@ function First() {
                   style={{
                     width: "40px",
                     height: "40px",
-                    backgroundColor: "#a494d78c",
+                    backgroundColor: "#e3e9ff",
                     borderRadius: "50%",
                     display: "flex",
                     alignItems: "center",
@@ -58,8 +59,58 @@ function First() {
                   <FaGraduationCap />
                   MSc Business with internationall Management
                 </div>
-                <Badge color="primary" pill>
-                  Add Your Rest Documents
+                <div className=" m-2 d-flex justify-content-between">
+                <Badge className="text-primary" color="light" pill>
+                  <p className="m-2">Add Your Rest Documents</p>
+                </Badge>
+                <img
+                  style={{ borderRadius: "50%", width: "30px", height: "30px" }}
+                  alt="Sample"
+                  src={edumpus}
+                />
+                </div>
+              </div>
+            </Card>
+          </Col>
+          <Col md="4">
+            <Card className="p-2 m-2">
+              <div
+                className="p-2"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  borderBottom: "1px solid #00000040",
+                }}
+              >
+                <img
+                  style={{ borderRadius: "50%", width: "50px", height: "50px" }}
+                  alt="Sample"
+                  src={avatar}
+                />
+                <div>
+                  <h6>Charlotte Rosalie</h6>
+                  <p>EDU-IND_66444081</p>
+                </div>
+                <Badge className="text-success" color="light" pill>
+                  New
+                </Badge>
+              </div>
+              <div style={{ lineHeight: "3rem" }}>
+                <div>
+                  <BsFillTelephoneFill />
+                  +91 75108 27929
+                </div>
+                <div>
+                  <HiMailOpen />
+                  myemail@rihannasinger.com
+                </div>
+                <div>
+                  <FaGraduationCap />
+                  MSc Business with internationall Management
+                </div>
+                <Badge className="text-primary" color="light" pill>
+                  <p className="m-3">Applied</p>
                 </Badge>
               </div>
             </Card>
@@ -78,25 +129,15 @@ function First() {
                 <img
                   style={{ borderRadius: "50%", width: "50px", height: "50px" }}
                   alt="Sample"
-                  src="https://picsum.photos/300/300"
+                  src={avatar}
                 />
                 <div>
                   <h6>Charlotte Rosalie</h6>
                   <p>EDU-IND_66444081</p>
                 </div>
-                <div
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    backgroundColor: "#a494d78c",
-                    borderRadius: "50%",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-evenly",
-                  }}
-                >
-                  <BsFillPencilFill color="darkblue" />
-                </div>
+                <Badge className="text-success" color="light" pill>
+                  New
+                </Badge>
               </div>
               <div style={{ lineHeight: "3rem" }}>
                 <div>
@@ -111,62 +152,16 @@ function First() {
                   <FaGraduationCap />
                   MSc Business with internationall Management
                 </div>
-                <Badge color="primary" pill>
-                  Add Your Rest Documents
+                <div className="m-2 d-flex justify-content-between">
+                <Badge className="text-primary" color="light" pill>
+                  <p className="m-2">Verified</p>
                 </Badge>
-              </div>
-            </Card>
-          </Col>
-          <Col md="4">
-            <Card className="p-2 m-2">
-              <div
-                className="p-2"
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  borderBottom: "1px solid #00000040",
-                }}
-              >
                 <img
-                  style={{ borderRadius: "50%", width: "50px", height: "50px" }}
+                  style={{ borderRadius: "50%", width: "30px", height: "30px" }}
                   alt="Sample"
-                  src="https://picsum.photos/300/300"
+                  src={edumpus}
                 />
-                <div>
-                  <h6>Charlotte Rosalie</h6>
-                  <p>EDU-IND_66444081</p>
                 </div>
-                <div
-                  style={{
-                    width: "40px",
-                    height: "40px",
-                    backgroundColor: "#a494d78c",
-                    borderRadius: "50%",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-evenly",
-                  }}
-                >
-                  <BsFillPencilFill color="darkblue" />
-                </div>
-              </div>
-              <div style={{ lineHeight: "3rem" }}>
-                <div>
-                  <BsFillTelephoneFill />
-                  +91 75108 27929
-                </div>
-                <div>
-                  <HiMailOpen />
-                  myemail@rihannasinger.com
-                </div>
-                <div>
-                  <FaGraduationCap />
-                  MSc Business with internationall Management
-                </div>
-                <Badge color="primary" pill>
-                  Add Your Rest Documents
-                </Badge>
               </div>
             </Card>
           </Col>
